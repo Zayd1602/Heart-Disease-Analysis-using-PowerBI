@@ -33,10 +33,76 @@ We can see that the visual has two tabs, namely – Key influencers and Top segm
 - The visualizations are filtered between Disease Detected to be True or False.
 - Slicers are a way of filtering. They narrow the portion of the dataset that is shown in the other report visualizations. 
   So, I’ve made two slicers one for filtering from the range of age, and another for filtering from different gender or both.
-
-<div>
-   <p>Following is an attempt to create the Obstacle Avoiding robot using 2 gear motors. The front distance is being measured by the ultrasonic sensor.</p>
-  
-  >Note: We aren't using a servo motor to measure the right and left distance here
    
 ## Conclusion
+It was found that from the given the dataset, female patients were more likely to have the disease, and is most common in the age ranging between 29 and 54.
+
+Disease diagnosis is the most positively affected for the following factors:
+
+   1. Exercise Induced Angina is negative, for 69.61% of the patients and this factor 3 times more likely to cause the disease.
+   2. Chest pain type is 1, for 89% of the patients having this category of chest pain and this factor 2.32 times more likely to cause the disease.
+   3. Number of major blood vessels type is 0, for 74.29% of the patients having this category of major blood vessels and this factor 2.13 times more likely to cause the disease.
+   4. Slope of the peak exercise ST segment type is 2, for 75.35% of the patients having this category of slope and this factor 2.09 times more likely to cause the disease.
+
+## About the dataset
+
+The following are the features we'll use to predict our target variable (heart disease or no heart disease).
+There are 13 attributes:
+<details><summary><b>Click to know more </b></summary>   
+
+   1. **age**: age (in years)
+
+2. **sex**: gender (1 = male; 0 = female)
+
+3. **cp**: chest pain type
+There are three criteria for classifying different types of angina (chest pain) under three categories (according to this NCBI paper: [https://pubmed.ncbi.nlm.nih.gov/20494662/](https://pubmed.ncbi.nlm.nih.gov/20494662/)):
+_Location_: Chest pain occurs around the substernal portion of the body
+_Cause_: Pain is experienced after induction of emotional/physical stress
+_Relief_: The pain goes away after taking nitroglycerine and/or a rest
+
+   - **0**: normaltypical angina (all criteria present) 
+   - **1**: atypical angina (two of three criteria satisfied)
+   - **2**: non-anginal pain (less than one criteria satisfied)
+   - **3**: asymptomatic (none of the criteria are satisfied)
+
+4. **trestbps**: resting blood pressure (in mmHg, upon admission to the hospital)
+
+5. **chol**: serum cholesterol in mg/dL
+
+6. **fbs**: fasting blood sugar > 120 mg/dL (likely to be diabetic) 1 = true; 0 = false
+
+7. **restecg**: resting electrocardiogram results
+   - Value 0: normal
+   - Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV) - more on the effects of these below
+   - Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+
+8. **thalach**: maximum heart rate achieved
+
+9. **exang**: exercise induced angina (1 = yes; 0 = no)
+
+10. **oldpeak**: ST depression induced by exercise relative to rest (in mm, achieved by subtracting the lowest ST segment points during exercise and rest)
+
+11. **slope**: the slope of the peak exercise ST segment, ST-T abnormalities are considered to be a crucial indicator for identifying presence of ischaemia (according to this research paper on NCBI: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/))
+    - 0: upsloping
+    - 1: flat
+    - 2: downsloping
+
+12. **ca**: number of major vessels (0-4) colored by fluoroscopy. Major cardial vessels are as goes: aorta, superior vena cava, inferior vena cava, pulmonary artery (oxygen-poor blood --> lungs), pulmonary veins (oxygen-rich blood --> heart), and coronary arteries (supplies blood to heart tissue).
+Radioactive dye is introduced to the body followed by x-ray imaging to detect any structural abnormalities present in the heart. The quantity of vessels colored is positively correlated with presence of heart disease.
+
+13. **thal**: 0 = normal; 1 = fixed defect (heart tissue can't absorb thallium both under stress and in rest); 2 = reversible defect (heart tissue is unable to absorb thallium only under the exercise portion of the test)
+Thallium testing is a method where the radioactive element thallium (Tl) is introduced to the body through an IV injection, followed by nuclear imaging of the heart with a gamma camera which reveals structural issues and abnormalities of the heart by showing whether if the isotope was absorbed by heart tissue under high (exercise) and low (rest) stress conditions.
+
+14. **target**: 0 = no disease, 1 = disease
+
+</details>
+
+  >Note: Names of the columns were changed while transforming the data in Power BI.
+
+## Sources
+
+ - Dataset - [https://drive.google.com/drive/folders/1M5z7z1NmWar7y1eFs67orfjqHL0iSViL](https://drive.google.com/drive/folders/1M5z7z1NmWar7y1eFs67orfjqHL0iSViL)
+(iNeuron) 
+
+ - Dataset factors explanation – [https://www.kaggle.com/onatto/predicting-heart-disease-a-detailed-guide](https://www.kaggle.com/onatto/predicting-heart-disease-a-detailed-guide)
+(Kaggle)
