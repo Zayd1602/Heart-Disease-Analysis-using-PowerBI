@@ -11,11 +11,11 @@ The huge volume of data is used to make decision which is more accurate than int
    
 ## Problem Statement
 
-Healthcare system facilitates the treatment of patients with the support of wearable, smart, and handheld devices, as well as many other devices. These devices are producing a huge bulk of data which makes it harder for the medical professional to make sense of the data for future prognosis. It takes a lot of time to read the numerical data and can lead to misinterpretation and false prognosis. The current scenario faces a lack of meaningful clinical intelligence available at the point of care. Poor data visualization is also one of the factors which creates one of the biggest overarching problems in the healthcare industry.
+The Healthcare system facilitates the treatment of patients with the support of wearable, smart, and handheld devices, as well as many other devices. These devices are producing a huge bulk of data which makes it harder for the medical professional to make sense of the data for future prognosis. It takes a lot of time to read the numerical data and can lead to misinterpretation and false prognosis. The current scenario faces a lack of meaningful clinical intelligence available at the point of care. Poor data visualization is also one of the factors which creates one of the biggest overarching problems in the healthcare industry.
 
 ## Solution
 
-Power BI is an interactive data visualization software which is responsible for creating, striking, engaging, and meaningful data visualizations that can help to break down even the most complex and convoluted healthcare problems into manageable component parts, giving providers a new level of insight into how to deliver the highest quality care to patients while succeeding with their strategic goals.
+Power BI is an interactive data visualization software that is responsible for creating, striking, engaging, and meaningful data visualizations that can help to break down even the most complex and convoluted healthcare problems into manageable component parts, giving providers a new level of insight into how to deliver the highest quality care to patients while succeeding with their strategic goals.
 
 ## Description
 
@@ -66,6 +66,8 @@ Disease diagnosis is the most positively affected for the following factors:
 <div align = center> 
 <img width=800 src="https://github.com/Zayd1602/FRT-Project-using-PowerBI/blob/main/Overall-visual.gif">
 </div>
+
+<br>**Demo Video URL:** [https://youtu.be/QpFf__Gq4xQ](https://youtu.be/QpFf__Gq4xQ)</br>
 
 ## About the dataset
 
