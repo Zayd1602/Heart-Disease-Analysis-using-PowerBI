@@ -1,5 +1,14 @@
 <h1>Heart Disease Analysis using Power BI <img width=125 align=right src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"></h1>
 
+Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an estimated 17.9 million lives each year [(WHO)](https://www.who.int/health-topics/cardiovascular-diseases).
+The effects of behavioural risk factors may show up in individuals. Identifying those at highest risk of CVDs and ensuring they receive appropriate treatment can prevent premature deaths.
+
+In this project we will learn how the disease affects different patients with respect to their sex or age. We will see various interactive visuals of the data obtained from the diagnosis of the patients and if they have the disease or not.
+
+These visuals can help medical professionals to determine prescribing various medical treatments and treatment measures to the patients comparing their diagnosis data with our analysed data. It will significantly reduce the time taken by the medical professional to determine the patients’ problems.
+
+The huge volume of data is used to make decision which is more accurate than intuition. The use of analytics in healthcare improves care by facilitating preventive care. Thus trends, patterns, and outliers even within large data sets can be identified fast.
+
 ## Problem Statement
 
 Healthcare system facilitates the treatment of patients with the support of wearable, smart, and handheld devices, as well as many other devices. These devices are producing a huge bulk of data which makes it harder for the medical professional to make sense of the data for future prognosis. It takes a lot of time to read the numerical data and can lead to misinterpretation and false prognosis. The current scenario faces a lack of meaningful clinical intelligence available at the point of care. Poor data visualization is also one of the factors which creates one of the biggest overarching problems in the healthcare industry.
