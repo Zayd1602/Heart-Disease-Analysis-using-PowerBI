@@ -44,6 +44,10 @@ Disease diagnosis is the most positively affected for the following factors:
    3. Number of major blood vessels type is 0, for 74.29% of the patients having this category of major blood vessels and this factor 2.13 times more likely to cause the disease.
    4. Slope of the peak exercise ST segment type is 2, for 75.35% of the patients having this category of slope and this factor 2.09 times more likely to cause the disease.
 
+<div align = center> 
+<img width=800 src="https://github.com/Zayd1602/FRT-Project-using-PowerBI/blob/main/Overall-visual.gif">
+</div>
+
 ## About the dataset
 
 The following are the features we'll use to predict our target variable (heart disease or no heart disease).
