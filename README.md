@@ -15,7 +15,11 @@ The Healthcare system facilitates the treatment of patients with the support of 
 
 ## Solution
 
+<img align=right width=330 src="https://github.com/Zayd1602/Heart-Disease-Analysis-using-PowerBI/blob/main/Doctors-Vector-Art.jpg">
+
 Power BI is an interactive data visualization software that is responsible for creating, striking, engaging, and meaningful data visualizations that can help to break down even the most complex and convoluted healthcare problems into manageable component parts, giving providers a new level of insight into how to deliver the highest quality care to patients while succeeding with their strategic goals.
+
+<br></br>
 
 ## Description
 
