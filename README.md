@@ -80,7 +80,7 @@ There are 13 attributes:
 2. **sex**: gender (1 = male; 0 = female)
 
 3. **cp**: chest pain type
-There are three criteria for classifying different types of angina (chest pain) under three categories (according to this NCBI paper: [https://pubmed.ncbi.nlm.nih.gov/20494662/](https://pubmed.ncbi.nlm.nih.gov/20494662/)):
+There are three criteria for classifying different types of angina (chest pain) under three categories (according to this NCBI paper: [https://pubmed.ncbi.nlm.nih.gov/20494662/](https://pubmed.ncbi.nlm.nih.gov/20494662/)
 _Location_: Chest pain occurs around the substernal portion of the body
 _Cause_: Pain is experienced after induction of emotional/physical stress
 _Relief_: The pain goes away after taking nitroglycerine and/or a rest
@@ -107,7 +107,7 @@ _Relief_: The pain goes away after taking nitroglycerine and/or a rest
 
 10. **oldpeak**: ST depression induced by exercise relative to rest (in mm, achieved by subtracting the lowest ST segment points during exercise and rest)
 
-11. **slope**: the slope of the peak exercise ST segment, ST-T abnormalities are considered to be a crucial indicator for identifying presence of ischaemia (according to this research paper on NCBI: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/))
+11. **slope**: the slope of the peak exercise ST segment, ST-T abnormalities are considered to be a crucial indicator for identifying presence of ischaemia (according to this research paper on NCBI: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7027664/)
     - 0: upsloping
     - 1: flat
     - 2: downsloping
@@ -132,5 +132,5 @@ Thallium testing is a method where the radioactive element thallium (Tl) is intr
  - Dataset factors explanation – [https://www.kaggle.com/onatto/predicting-heart-disease-a-detailed-guide](https://www.kaggle.com/onatto/predicting-heart-disease-a-detailed-guide)
 (Kaggle)
 
- - Vector art - [https://www.freepik.com/vectors/people](https://www.freepik.com/vectors/people)>People vector created by katemangostar 
+ - Vector art - [https://www.freepik.com/vectors/people](https://www.freepik.com/vectors/people)
 (People vector created by katemangostar - www.freepik.com)
