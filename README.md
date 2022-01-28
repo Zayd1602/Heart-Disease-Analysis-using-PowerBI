@@ -1,7 +1,7 @@
 <h1>Heart Disease Analysis using Power BI <img width=125 align=right src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"></h1>
 
-Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an estimated 17.9 million lives each year [(WHO)](https://www.who.int/health-topics/cardiovascular-diseases).
-The effects of behavioural risk factors may show up in individuals. Identifying those at highest risk of CVDs and ensuring they receive appropriate treatment can prevent premature deaths.
+Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an estimated 17.9 million lives each year 
+The effects of behavioural risk factors may show up in individuals. Identifying those at highest risk of CVDs and ensuring they receive appropriate treatment can prevent premature deaths. [(WHO)](https://www.who.int/health-topics/cardiovascular-diseases)
 
 In this project we will learn how the disease affects different patients with respect to their sex or age. We will see various interactive visuals of the data obtained from the diagnosis of the patients and if they have the disease or not.
 
